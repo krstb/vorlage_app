@@ -1,28 +1,24 @@
 {
-  "short_name": "Arbeitstage",
-  "name": "Arbeitstage Berechnung",
-  "description": "Berechnung der verbleibenden Nettoarbeitstage",
+  "short_name": "Vorlage APP",
+  "name": "vorlage",
+  "description": "beschreibung",
   "start_url": "index.html",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#000000",
   "background_color": "#000000",
   "icons": [
-  {
-    "purpose": "maskable",
-    "sizes": "128x128",
-    "src": "maskable_icon_x128.png",
-    "type": "image/png"
-  },
-  {
-    "purpose": "maskable",
-    "sizes": "512x512",
-    "src": "maskable_icon_x512.png",
-    "type": "image/png"
-  }
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
   ]
-    
 }
-
-
-
